@@ -1,46 +1,60 @@
-body{
-  background-color: #575c5f;
+body {
+	background-color: #575c5f;
 }
 
-#bg-img
-{
-  background: url("../images/AdobeStock_196907623.jpeg");
-  min-height: 775px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#bg-img {
+	background: url("../images/AdobeStock_196907623.jpeg");
+	min-height: 775px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.Heading1
-{
-  position: relative;
-  top : -500px;
-  right: auto;
-  left: auto;
-  color: red;
+.Heading1 {
+	position: relative;
+	top: -500px;
+	right: auto;
+	left: auto;
+	color: red;
 }
-.section1
-{
-  position: relative;
-  box-sizing: content-box;
-  height:1100px;
-  width:auto;
-  background-color: rgba(0,0,0,.2); 
+.section1 {
+	position: relative;
+	box-sizing: content-box;
+	height: 1100px;
+	width: auto;
+	background-color: rgba(146, 135, 135, 0.2);
 }
-div.eBox
-{
-  top: 40px;
-  position: relative;
-  height: 200px;
-  width : 200px;
-  border-color: red;
-  border-width: 1px;
-  box-sizing: content-box;
-  margin:auto;
-  align-content: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-  vertical-align: top;
-  z-index: 100;
-  border-style: solid;
+div.eBox {
+	top: 40px;
+	position: relative;
+	height: 200px;
+	width: 200px;
+	border-color: red;
+	border-width: 1px;
+	box-sizing: content-box;
+	margin: auto;
+	align-content: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	vertical-align: top;
+	z-index: 100;
+	border-style: solid;
+}
+.myText1 {
+	display: inline-block;
+	position: relative;
+	top: 50px;
+}
+ul li {
+	text-align: left;
+}
+
+.aboutMe {
+	color: white;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	font-size: 20px;
+	width: 800px;
 }

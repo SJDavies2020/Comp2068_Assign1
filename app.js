@@ -1,3 +1,8 @@
+//- File Name: apps.js
+//- Author: Steven Davies
+//- Website Name: www.sdavies.ca
+//- Description: This is the app.js for the site and contains all the required in modules.
+//- Updated : 2019-10-13
 // Vairable Definitions
 var createError = require('http-errors');
 var express = require('express');

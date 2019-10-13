@@ -1,9 +1,5 @@
 extends layout
-//- File Name: ContactME.pug
-//- Author: Steven Davies
-//- Website Name: www.sdavies.ca
-//- Description: This is the Contact page for the site.
-//- Updated : 2019-10-13
+
 block content
 	//- Contact Form Page HTML
 	section#contact
@@ -29,7 +25,8 @@ block content
 									.input-group-prepend
 										span.input-group-text.btn
 											i.fa.fa-phone(aria-hidden='true')
-									input.form-control(type='tel', placeholder='Your Phone *', required='required', 
+									input.form-control(type='tel', placeholder='Your Phone *', required='required',
+										data-validation-required-message='Please enter your phone Number.')
 							.col-md-6
 								.input-group
 									.input-group-prepend

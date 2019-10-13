@@ -2,6 +2,8 @@ body {
 	background-color: #575c5f;
 }
 
+/* Index Page Image */
+
 #bg-img {
 	background: url("../images/AdobeStock_196907623.jpeg");
 	min-height: 775px;
@@ -25,6 +27,9 @@ body {
 	width: auto;
 	background-color: rgba(146, 135, 135, 0.2);
 }
+
+/* Box first page styles */
+
 div.eBox {
 	top: 40px;
 	position: relative;
@@ -60,6 +65,8 @@ ul li {
 	text-align: left;
 }
 
+/* About me page Styling */
+
 .aboutMe {
 	color: white;
 	margin: auto;
@@ -69,6 +76,8 @@ ul li {
 	font-size: 20px;
 	width: 800px;
 }
+
+/* Contact Form Styling */
 
 #contact {
 	color: white;
@@ -113,6 +122,8 @@ ul li {
 	color: #44000080;
 }
 
+/* Default Section Styling */
+
 section {
 	padding: 4em 0;
 	text-align: center;
@@ -124,15 +135,7 @@ section {
 	margin-top: 100px;
 }
 
-.pricing-header {
-max-width: 700px;
-}
-.card
-{
-margin: 0 auto; /* Added */
-float: none; /* Added */
-margin-bottom: 10px; /* Added */
-}
+/* Style the Section2 Element */
 
 .section2
 {
@@ -144,6 +147,8 @@ margin-bottom: 10px; /* Added */
 	width: auto;
 	background-color: rgba(146, 135, 135, 0.2);
 }
+
+/* Style the Boxes */
 
 div.eBox2 {
 	margin: 50px auto;

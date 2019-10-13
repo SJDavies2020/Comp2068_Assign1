@@ -1,6 +1,7 @@
 extends layout
 
 block content
+	//- Contact Form Page HTML
 	section#contact
 		.container
 			h2.title.text-uppercase.mb-0 Contact ME:
@@ -15,26 +16,22 @@ block content
 										span.input-group-text.btn
 											i.fa.fa-user(aria-hidden='true')
 									input.form-control(type='text', placeholder='Your Name *', required='required', data-validation-required-message='Please enter your name.')
-									// <p class="help-block text-danger"></p>
 								.input-group
 									.input-group-prepend
 										span.input-group-text.btn
 											i.fa.fa-envelope(aria-hidden='true')
 									input.form-control(type='email', placeholder='Your Email *', required='required', data-validation-required-message='Please enter your email address.')
-									// <p class="help-block text-danger"></p>
 								.input-group
 									.input-group-prepend
 										span.input-group-text.btn
 											i.fa.fa-phone(aria-hidden='true')
-									input.form-control(type='tel', placeholder='Your Phone *', required='required', data-validation-required-message='Please enter your phone number.')
-									// <p class="help-block text-danger"></p>
+									input.form-control(type='tel', placeholder='Your Phone *', required='required', 
 							.col-md-6
 								.input-group
 									.input-group-prepend
 										span.input-group-text.btn
 											i.fa.fa-comment(aria-hidden='true')
 									textarea.form-control(placeholder='Your Message *', required='required', data-validation-required-message='Please enter a message.')
-									// <p class="help-block text-danger"></p>
 							.clearfix
 							.col-lg-12.text-center
 								button(type='submit') Submit

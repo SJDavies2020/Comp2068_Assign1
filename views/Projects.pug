@@ -6,16 +6,16 @@ extends layout
 //- Updated : 2019-10-13
 block content
 	//-Header
-	h1.Heading1.text-center Welcome to my Projects Page
-		h1.text-center Projects
+	main
+		#bg-img
+		h1.Heading1.text-center Welcome to my Projects Page
 		br
-		//- Container Start
 		.container-fluid
 			.row
-				.col-xl-3.text-center
-					h5 HTML / CSS
-						.eBox
-							img.Icon(src='../images/1121074051558096456-256.png', alt='icon image')
+				.col-xl-3.col-md-6.col-sm-12.text-center
+					h2 HTML / CSS
+					.eBox
+						img.Icon(src='../images/1121074051558096456-512.png', alt='icon image')
 					.myText1
 						ul
 							li Wordpress
@@ -24,31 +24,29 @@ block content
 							li PHP
 							li Express.js
 							li ASP.NET
-				.col-xl-3.text-center
-					h5 PHP
-						.eBox
-							img.Icon(src='../images/14539180181558096453-512.png', alt='icon image')
+				.col-xl-3.col-md-6.col-sm-12.text-center
+					h2 PHP
+					.eBox
+						img.Icon(src='../images/14539180181558096453-512.png', alt='icon image')
 					.myText1
 						ul
 							li c#
 							li PHP
 							li Express.js
 							li ASP.NET
-				.col-xl-3.text-center
-					h5 ASP.NET
-						.eBox
-							img.Icon(src='../images/173373361558096440-256.png', alt='icon image')
-					.myTxtCenter
-						.myText1
-							ul
-								li Website Updates
-								li Modernization
-				.col-xl-3.text-center
-					h5 ASP.NET DEVELOPMENT
-						.eBox
-							img.Icon(src='../images/2950523971558096453-512.png', alt='icon image')
+				.col-xl-3.col-md-6.col-sm-12.text-center
+					h2 ASP.NET
+					.eBox
+						img.Icon(src='../images/173373361558096440-512.png', alt='icon image')
+					.myText1
+						ul
+							li Website Updates
+							li Modernization
+				.col-xl-3.col-md-6.col-sm-12.text-center
+					h2 ASP.NET DEVELOPMENT
+					.eBox
+						img.Icon(src='../images/2950523971558096453-512.png', alt='icon image')
 					.myText1
 						ul
 							li New Application
-							li Updates and Devlopement 
-				//- Container End
+							li Updates and Devlopement

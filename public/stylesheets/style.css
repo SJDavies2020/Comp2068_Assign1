@@ -25,13 +25,14 @@ body {
 	left: auto;
 	color: red;
 }
-.section1 {
-	display: inline-flexbox;
+.Heading2 {
+
+	margin-top:50px;
+	margin-bottom: 50px;
 	position: relative;
-	box-sizing: content-box;
-	height: 400px;
-	width: auto;
-	background-color: rgba(146, 135, 135, 0.2);
+	right: auto;
+	left: auto;
+	color: red;
 }
 
 /* Box first page styles */
@@ -51,6 +52,7 @@ div.eBox {
 	vertical-align: top;
 	z-index: 100;
 	border-style: solid;
+	margin-bottom: 25px;
 }
 
 img.Icon
@@ -143,25 +145,14 @@ section {
 
 /* Style the Section2 Element */
 
-.section2
-{
-	margin:10px;
-	position: inherit;
-	display: inline-flexbox;
-	box-sizing: content-box;
-	height: 700px;
-	width: auto;
-	background-color: rgba(146, 135, 135, 0.2);
-}
-
 /* Style the Boxes */
 
 div.eBox2 {
 	margin: 50px auto;
 	top: 40px;
 	position: relative;
-	height: 400px;
-	width: 400px;
+	height: 500px;
+	width: 500px;
 	border-color: green;
 	border-width: 1px;
 	box-sizing: content-box;
@@ -171,4 +162,20 @@ div.eBox2 {
 	vertical-align: top;
 	z-index: 100;
 	border-style: solid;
+	margin-bottom: 50px;
+	font-size: 2.0rem;
+	color: white;
+}
+
+h2
+{
+	display: inline-flex;
+	position: relative;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.footer
+{
+	margin-top: 50px;
 }
